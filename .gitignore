@@ -1,0 +1,32 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.fleet/
+
+# Dependencies / vendors (if added later)
+vendor/
+node_modules/
+
+# Env / config
+.env
+.env.*
+# Keep real DB creds out of Git
+includes/dbconnection.php
+
+# Logs / cache / temp
+*.log
+logs/
+storage/
+cache/
+tmp/
+temp/
+sessions/
+
+# PHP / tools
+.phpunit.result.cache
+composer.lock
+npm-debug.log*
+yarn-error.log*
